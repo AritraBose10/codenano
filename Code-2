@@ -1,0 +1,11 @@
+#include <math.h>
+#include <stdio.h>
+int convert(long long bin);
+int main() {
+    long long bin;
+    printf("Enter a binary number: ");
+    scanf("%lld", &bin);
+    printf("%lld in binary = %d in octal", bin, convert(bin));
+    return 0;
+}
+
